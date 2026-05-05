@@ -33,7 +33,7 @@ project/
 ├── .gitignore        # Налаштування виключень для Git
 ├── requirements.txt  # Список залежностей проекту
 └── README.md         # Документація проекту
-```plaintext
+```
 
 ## 3. Швидкий старт
 Встановлення залежностей
@@ -45,14 +45,14 @@ source venv/Scripts/activate  # Для Windows
 
 # Встановлення пакетів
 pip install -r requirements.txt
-```bash
+```
 
 Отримання даних через DVC
 Проект використовує локальне сховище для даних.
 ```bash
 # Ініціалізація та отримання даних
 dvc pull
-```bash
+```
 
 Запуск тренування та MLflow
 
@@ -67,7 +67,7 @@ python src/train.py
 
 # Перегляд результатів в UI
 mlflow ui
-```bash
+```
 
 ## 4. Результати експериментів
 
