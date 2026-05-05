@@ -1,0 +1,5 @@
+outs:
+- md5: f89f32258c0dc52ad88c76799dc358d1
+  size: 5156750
+  hash: md5
+  path: newsgroups.csv
